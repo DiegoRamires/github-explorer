@@ -1,4 +1,5 @@
-import {RepositoryItem} from './RepositoryItem'
+import {RepositoryItem} from './RepositoryItem';
+import '../styles/repositories.scss';
 
 const repository = {
   name: 'unform2',
@@ -6,7 +7,7 @@ const repository = {
   link: 'https://github.com/unform/unform'
 }
 
-export default function RepositoryList() {
+export function RepositoryList() {
   return(
     <section clasname="repository-list">
       <h1>Lista de repositórios</h1>
